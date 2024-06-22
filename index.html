@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favi.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>JemBox - Unlock A World Of Wonder</title>
+</head>
+
+<body>
+
+    <div class="video-wrapper">
+        <video autoplay muted id="landing-video">
+            <source src="img/jembox-landing.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="index.html"><img src="img/JemBox-white-blk.png" alt="logo"></a>
+            </div>
+            <div class="navbar-nav">
+                <a href="/pages/about.html">about</a>
+                <a href="#order">order</a>
+                <a href="#contact">contact</a>
+            </div>
+            <button class="nav-toggler">
+                <span></span>
+            </button>
+
+        </nav>
+        <div class="banner">
+            <div class="container">
+                <h1 class="banner-title fade-in">JEMBOX</h1>
+                <p class="slide from-bottom">Unlock a World of Wonder<br>Where Learning Meets Adventure!
+                </p>
+                <a href="#order" class="btn contact-btn fade-in">Order Your Box</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="title fade-in">
+                <h2>What is jembox?</h2>
+                <p>Jembox is a creative way to get your kids excited about learning!</p>
+            </div>
+            <div class="about-content">
+                <div class="about-cards">
+                    <div class="about-card slide from-left">
+                        <div class="about-image">
+                            <img src="img/crafts.jpg" alt="">
+                        </div>
+                        <h3>STEM</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed fuga architecto minima
+                            perferendis alias ullam natus magni dicta ad velit? <br>Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Nisi perspiciatis corporis, dolorum ad consectetur sit ab
+                            temporibus tempora iste aut.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-image slide from-bottom">
+                            <img src="img/JemBox-blk-pinkback.png" alt="">
+                        </div>
+                        <h3>WHAT'S IN A BOX?</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed fuga architecto minima
+                            perferendis alias ullam natus magni dicta ad velit? <br>Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Nisi perspiciatis corporis, dolorum ad consectetur sit ab
+                            temporibus tempora iste aut.</p>
+                    </div>
+                    <div class="about-card slide from-right">
+                        <div class="about-image">
+                            <img src="img/handpaint.jpg" alt="">
+                        </div>
+                        <h3>HANDS ON</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed fuga architecto minima
+                            perferendis alias ullam natus magni dicta ad velit? <br>Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Nisi perspiciatis corporis, dolorum ad consectetur sit ab
+                            temporibus tempora iste aut.</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="/pages/about.html" class="hover-button fade-in">Find Out More!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="order">
+        <div class="title fade-in">
+            <h2>Order Now</h2>
+            <p>Click on one of the boxes to find out more...</p>
+        </div>
+        <div class="product-container">
+
+
+            <div class="product fade-in" data-name="trial">
+                <div class="product-content">
+                    <img src="img/try.jpg" alt="">
+                    <h3>Trial a box</h3>
+                    <p>Trial a box</p>
+                    <div class="price">
+                        <p>£20</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product fade-in" data-name="six-month">
+                <div class="product-content">
+                    <img src="img/three.jpg" alt="">
+                    <h3>Three Boxes</h3>
+                    <p>Buy 3 boxes and get £10 off!</p>
+                    <div class="price">
+                        <p>£50</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product fade-in" data-name="one-year">
+                <div class="product-content">
+                    <img src="img/5 stars.jpg" alt="">
+                    <h3>Five Boxes</h3>
+                    <p>Buy 5 and get £20 off!!</p>
+                    <div class="price">
+                        <p>£80</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="products-preview">
+            <div class="preview" data-target="trial">
+                <i class="fas fa-times"></i>
+                <img src="img/try.jpg" alt="">
+                <h3>Trial a box</h3>
+
+                <p>Clicking Buy will take you to a checkout page for payment and entering your address</p>
+                <div class="price">£20</div>
+                <stripe-buy-button class="button" buy-button-id="buy_btn_1N9rmWETC9SalK64O0NovujN"
+                    publishable-key="pk_test_51N9q4DETC9SalK64xhlSgnVYQWpJlCnXPCjCNmRCVL4MwkPwS91JqWEMQlVqa5iik86n6gYijAu0FhsDXSB5Wij800aH1OyklD">
+                </stripe-buy-button>
+            </div>
+
+            <div class="preview" data-target="six-month">
+                <i class="fas fa-times"></i>
+                <img src="img/three.jpg" alt="">
+                <h3>3 Boxes</h3>
+
+                <p>Clicking Buy will take you to a checkout page for payment and
+                    entering your address</p>
+                <div class="price">£50</div>
+                <stripe-buy-button buy-button-id="buy_btn_1N9r5gETC9SalK64l9BLuzFC"
+                    publishable-key="pk_test_51N9q4DETC9SalK64xhlSgnVYQWpJlCnXPCjCNmRCVL4MwkPwS91JqWEMQlVqa5iik86n6gYijAu0FhsDXSB5Wij800aH1OyklD">
+                </stripe-buy-button>
+            </div>
+
+            <div class="preview" data-target="one-year">
+                <i class="fas fa-times"></i>
+                <img src="img/5 stars.jpg" alt="">
+                <h3>5 boxes</h3>
+
+                <p>Clicking Buy will take you to a checkout page for payment and entering
+                    your address</p>
+                <div class="price">£80</div>
+
+                <stripe-buy-button buy-button-id="buy_btn_1N9sHlETC9SalK64ZSciO5mP"
+                    publishable-key="pk_test_51N9q4DETC9SalK64xhlSgnVYQWpJlCnXPCjCNmRCVL4MwkPwS91JqWEMQlVqa5iik86n6gYijAu0FhsDXSB5Wij800aH1OyklD">
+                </stripe-buy-button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="title fade-in">
+                <h2>Contact</h2>
+                <p>Get in touch if you are interested in trying out a box. Or if you have any questions, please fill
+                    out
+                    the
+                    form.</p>
+            </div>
+
+
+            <div class="contact-content">
+
+                <div class="form-content">
+                    <form netlify method="post" id="contact-form">
+                        <h3>Send Message</h3>
+                        <div class="inputBox">
+                            <input type="text" name="name" required autocomplete="name">
+                            <span>Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" name="email" id="email" required autocomplete="email">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea id="text" required></textarea>
+                            <span>Type your message</span>
+                        </div>
+                        <input type="hidden" name="_subject" value="New email YAY!">
+                        <input type="hidden" name="_next" value="/thanks">
+                        <button type="submit" class="hover-button fade-in">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <ul class="social-icon">
+            <li class="item"><a class="link" href="#">
+                    <i class="fa-brands fa-square-facebook"></i> </a></li>
+            <li class="item"><a class="link" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a></li>
+            <li class="item"><a class="link" href="#">
+                    <i class="fa fa-envelope"></i>
+                </a></li>
+        </ul>
+        <div class="footer-nav">
+            <a href="/pages/about.html">about</a>
+            <a href="#order">order</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="footer-nav">
+            <a href="mailto:jembox@email.com">info@jemboxkids.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script async src="https://js.stripe.com/v3/buy-button.js">
+    </script>
+
+
+</body>
+
+</html>
